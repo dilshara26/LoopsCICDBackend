@@ -13,8 +13,13 @@ from src.databaseCont import (
 
 )
 
+import nltk
+nltk.download('punkt')
+
+nltk.download('stopwords')
 
 
+nltk.download('wordnet')
 
 app = FastAPI()
 
