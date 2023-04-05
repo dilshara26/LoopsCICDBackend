@@ -23,7 +23,7 @@ nltk.download('wordnet')
 
 app = FastAPI()
 
-origins = ['http://127.0.0.1:5173','http://127.0.0.1:5174','https://eclectic-cocada-9a268d.netlify.app/','https://eclectic-cocada-9a268d.netlify.app/']
+origins = ['http://127.0.0.1:5173','http://127.0.0.1:5174','https://eclectic-cocada-9a268d.netlify.app','https://eclectic-cocada-9a268d.netlify.app']
 
 
 app.add_middleware(
